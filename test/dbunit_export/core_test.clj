@@ -4,4 +4,5 @@
 
 (deftest a-test
   (testing "Simple test"
+    (prn (System/getenv "PORT"))
     (is (= 1 1))))
