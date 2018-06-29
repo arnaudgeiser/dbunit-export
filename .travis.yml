@@ -1,1 +1,4 @@
+before_script:
+        - export PORT=8080
 install: ./scripts/install.sh
+script: ${PORT} lein test
